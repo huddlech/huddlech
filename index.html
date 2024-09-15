@@ -6,51 +6,42 @@
             body {
                 font-family: Arial, sans-serif;
                 background: #071f3f;
+                color: #cccccc;
+            }
+            a:link, a:visited, a:active, a:hover {
                 color: white;
-            }
-            a:link, a:visited, a:active {
-                color: white;
-            }
-            a:hover {
-                color: #1a71e4;
-            }
-            a:active {
-                color: #0e3b75;
             }
             img {
                 border-radius: 6px;
             }
             h1, h2 {
                 margin-top: 0;
+                color: #eeeeee;
             }
             #content {
                 text-align: center;
             }
             .button {
                 list-style: none;
-                display: block;
+                display: inline-block;
                 margin: 5px auto;
-                width: 250px;
+                width: 160px;
                 text-align: center;
                 font-weight: bold;
-                padding: 10px;
-                border: 4px solid white;
+                padding: 5px;
+                border: 3px outset #cccccc;
+                color: #cccccc;
                 border-radius: 16px;
                 text-decoration: none;
+                font-size: smaller;
             };
-            .button:hover {
-                border-color: #1a71e4;
-            }
-            .button:active {
-                border-color: #0e3b75;
-            }
             #header {
                 width: 100%;
             }
             .section {
                 background: black;
                 display: inline-block;
-                margin: 20px auto;
+                margin: 10px auto;
                 padding: 20px;
                 vertical-align: top;
                 border-radius: 12px;
@@ -59,15 +50,31 @@
                 width: 100%;
                 text-align: left;
             }
+            #profile {
+                float: left; 
+                margin-right: 20px;
+                border-radius: 50%;
+                border: 2px inset #cccccc ;
+            }
+            .fineprint {
+                font-size: smaller;
+                color: #aaaaaa;
+            }
+            .fineprint img {
+                vertical-align: middle;
+                margin-right: 20px;
+            }
         </style>
     </head>
     <body>
         <div id="content">
             <div class="section">
+                <img src="headshot.png" width="160" height="160" alt="Charles Huddleston" id="profile"/>
                 <h1>Charles Huddleston</h1>
                 <p>Filmmaker, CEO of <a href="https://circuitcinema.com/" target="_blank">Circuit Cinema</a></p>
-                <a class="button" href="https://www.instagram.com/chhuddleston"  target="_blank">Instagram</a>
-                <a class="button" href="https://www.linkedin.com/in/chhuddleston"  target="_blank">LinkedIn</a>
+                <a class="button" href="https://www.instagram.com/chhuddleston" target="_blank">Instagram</a>
+                <a class="button" href="https://www.linkedin.com/in/chhuddleston" target="_blank">LinkedIn</a>
+                <a class="button" href="https://creator.oculus.com/community/1071022294630644/" target="_blank">Meta Quest</a>
                 <a class="button" href="https://cinando.com/en/People/huddleston_charles_782751/Detail"  target="_blank">Cinando</a>
                 </ul>
             </div>
@@ -77,6 +84,12 @@
                 <p>A live-action feature-length VR 360 film about a private detective investigating a humanoid robot companion who may be involved in the disappearance of another cop. 
                     When a hacker exploits a defect in her code, she begins to ask questions about her existence and whether it's actually the humans who have been programmed.</p>
                 <p>Filmed entirely on location with real human actors, the audience is fully immersed in a mysterious retro-futuristic film noir. There's no motion capture or computer-generated characters to get in the way of the actors' performances or the story.</p>
+            </div>
+            <div class="section">
+                <p class="fineprint">
+                    <img src="logo-24h-white.png" alt="Charles Huddleston logo"/>
+                    Copyright &copy; 2024 Charles Huddleston. All rights reserved.
+                </p>
             </div>
         </div>
     </body>
