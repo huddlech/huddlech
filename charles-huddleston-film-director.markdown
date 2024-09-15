@@ -15,4 +15,4 @@ Filmed entirely on location with real human actors, the audience is fully immers
 
 I'm proud to serve as CEO of [Circuit Cinema](https://circuitcinema.com), a subscription streaming service dedicated to great independent films and world cinema, including titles that are difficult to find on the big box streamers.
 
-*Copyright © 2024 Charles Huddleston*
+*Copyright © 2024 Charles Huddleston. All rights reserved.*
